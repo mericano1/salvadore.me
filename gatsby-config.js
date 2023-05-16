@@ -2,14 +2,13 @@ const pathPrefix = "/";
 const baseUrl = "/";
 let serviceWorkerUrl = pathPrefix + baseUrl;
 serviceWorkerUrl = serviceWorkerUrl.replace(/\/?$/, "/");
-console.log(`Service worker URL: ${serviceWorkerUrl}`);
 
 module.exports = {
   pathPrefix: pathPrefix,
   siteMetadata: {
     appName: "a personal README",
     title: "a personal README",
-    author: "Andrea Salvadore",
+    author: "Andrea/Andrew Salvadore",
     siteUrl: "https://salvadore.me",
     description:
       "a personal README" ,

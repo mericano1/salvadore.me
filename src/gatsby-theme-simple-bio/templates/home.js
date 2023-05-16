@@ -24,7 +24,7 @@ HomeLayout.defaultProps = {};
  * @return {JSX} Rendered children for the HomeLayout
  */
 function HomeLayout({location}) {
-    
+
   // Get the meta information from mdx file
   const homePage = useMdxHomePage();
   // Get author information from the yaml
@@ -41,7 +41,7 @@ function HomeLayout({location}) {
         <GridItem
           id="figureBio"
           css={{
-            margin: "0 10%",
+            margin: "0 5%",
             display: "flex",
             flexDirection: "column",
             alignSelf: "flex-start",

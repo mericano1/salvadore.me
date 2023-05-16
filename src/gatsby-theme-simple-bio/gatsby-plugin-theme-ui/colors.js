@@ -8,12 +8,10 @@ import defaultThemeColors from "gatsby-theme-simple-bio/src/gatsby-plugin-theme-
  * to go from default purple to a blue theme
  */
 
- 
+
 export default merge({}, defaultThemeColors, {
   text: "black",
+  background: "white",
   modes: {
-    dark: {
-      text: "white",
-    },
-  }, 
+  },
 });
