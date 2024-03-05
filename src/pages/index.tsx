@@ -2,7 +2,6 @@ import { GetStaticProps } from 'next';
 import Image from 'next/image';
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import '../../styles/global.css';
 import { getPostData } from '../lib/posts';
 
 export const getStaticProps: GetStaticProps = async () => {
