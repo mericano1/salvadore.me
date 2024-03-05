@@ -1,5 +1,5 @@
 ---
-title: '🚧 A personal README (WIP) 🏗'
+subtitle: '🚧 A personal README (WIP) 🏗'
 author: 'Andrea/Andrew Salvadore'
 type: home-page
 summary: 'Hello, this is an introduction to get to know me better!'
@@ -9,7 +9,22 @@ summary: 'Hello, this is an introduction to get to know me better!'
 
 I am a father of two great boys, a lucky husband of a lovely woman and a technology leader. I work for [Coinrule](web.coinrule.com). We help people automate their crypto trading strategies with a simple and accessible UI.
 
-> To build a great product you need a solid technology foundation. Unfortunately that is not sufficient. <br/> <i>Andrea Salvadore</i>
+> To build a great product you need a solid technology foundation. Unfortunately that is not sufficient. 
+>
+> &mdash; Andrew Salvadore 
+
+## Some of my principles 🧠
+
+### People come first.
+Your work-life balance, you general health, your satisfaction at work, your feedback.
+
+### Focus on quality
+Quick and dirty has is needed to learn, to confirm assumptions, to fit the right product market fit, to experiment. Once that phase is over then proper engineering practises must be put in place for sustainability. Engineers need to be proud of what they are building. To be able to sustain change over time we need to constantly refactor to include new learnings, better understanding of the problem, new technologies, new customer trends, etc.
+
+### Tech is exciting when is got a purpose.
+
+I am product-driven. I am excited to build products that have a purpose and can make a difference to people in some way.
+We are living in very exciting times. Technology is so accessible, ideas a flowing and anyone has a chance to build something. Execution will be the key to success.
 
 ## Talk to me about 💬
 
@@ -31,18 +46,6 @@ Your latest trip. Mountains, sea, forest. Take me for a spin!
 ### Gadgets 🚂
 Do I need to say more?
 
-## Some of my principles 🧠
-
-### People come first.
-Your work-life balance, you general health, your satisfaction at work, your feedback.
-
-### Once we know it's going to be there, quality has to follow.
-Quick and dirty is needed to learn, to confirm assumptions, to fit the right product market fit, to experiment. Once that phase is over then proper engineering practises must be put in place for sustainability. Engineers need to be proud of what they are building. To be able to sustain change over time we need to constantly refactor to include new learnings, better understanding of the problem, new technologies, new customer trends, etc.
-
-### Tech is exciting when is got a purpose.
-
-I am product-driven. I am excited to build products that have a purpose and can make a difference to people in some way.
-We are living in very exciting times. Technology is so accessible, ideas a flowing and anyone has a chance to build something. Execution will be the key to success.
 
 ## Work
 
