@@ -1,16 +1,15 @@
-import React from 'react';
 import { GetStaticProps } from 'next';
-import { getSortedPostsData, getPostData } from '../lib/posts';
+import Image from 'next/image';
+import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import '../../styles/global.css';
-import Image from 'next/image';
+import { getPostData } from '../lib/posts';
 
 export const getStaticProps: GetStaticProps = async () => {
-  const allPostsData = getSortedPostsData();
-  const allPostsContent = await Promise.all(allPostsData.map(({ id }) => getPostData(id)));
+  const bioContent = await getPostData("bio");
   return {
     props: {
-      allPostsContent
+      bioContent
     }
   };
 };
@@ -27,18 +26,18 @@ const renderSocials = () => (
       </div>
 )
 
-const Home: React.FC<{ allPostsContent: { date: string; title: string; id: string; content: string; }[] }> = ({ allPostsContent }) => (
+const Home: React.FC<{ bioContent: { date: string; title: string; id: string; content: string; } }> = ({ bioContent }) => (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
     <div className="flex items-start max-w-2xl mx-auto mb-16">
         {renderSocials()}
       <div>
-        {allPostsContent.map(({ id, date, title, content }) => (
-          <div key={id} className="flex flex-col items-start mb-16">
-            <h2 className="text-4xl font-bold">{title}</h2>
-            <p className="mt-2 text-gray-500">{date}</p>
-            <ReactMarkdown className="prose prose-lg mt-6" >{content}</ReactMarkdown>
+        { bioContent && (
+          <div key={bioContent.id} className="flex flex-col items-start mb-16">
+            <h2 className="text-4xl font-bold">{bioContent.title}</h2>
+            <p className="mt-2 text-gray-500">{bioContent.date}</p>
+            <ReactMarkdown className="prose prose-lg mt-6" >{bioContent.content}</ReactMarkdown>
           </div>
-        ))}
+        )}
       </div>
     </div>
   </div>
