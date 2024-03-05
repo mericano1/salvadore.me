@@ -9,6 +9,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      spacing: {
+        1: '0.125rem', // 2px
+        2: '0.25rem',  // 4px
+        3: '0.375rem', // 6px
+        4: '0.5rem',   // 8px
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

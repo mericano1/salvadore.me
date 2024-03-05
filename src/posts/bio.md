@@ -7,7 +7,7 @@ summary: 'Hello, this is an introduction to get to know me better!'
 
 # Hi 👋, I'm Andrew
 
-I am a father of two great boys, a lucky husband of a lovely woman and a technology leader. I work for [Coinrule](web.coinrule.com). We help people automate their crypto trading strategies with a simple and accessible UI.
+I am a lucky father of two boys, a lucky husband and a technology leader. I work for [Coinrule](web.coinrule.com). We help people automate their crypto trading strategies with a simple and accessible UI.
 
 > To build a great product you need a solid technology foundation. Unfortunately that is not sufficient. 
 >

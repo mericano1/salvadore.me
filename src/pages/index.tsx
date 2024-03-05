@@ -27,9 +27,9 @@ const renderSocials = () => (
 
 const Home: React.FC<{ bioContent: { date: string; title: string; id: string; content: string; } }> = ({ bioContent }) => (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-    <div className="flex items-start max-w-2xl mx-auto mb-16">
+    <div className="flex items-start max-w-3xl mx-auto mb-16">
         {renderSocials()}
-      <div>
+        <div>
         { bioContent && (
           <div key={bioContent.id} className="flex flex-col items-start mb-16">
             <h2 className="text-4xl font-bold">{bioContent.title}</h2>
