@@ -6,7 +6,15 @@ import path from 'path';
 
 const postsDirectory = path.join(process.cwd(), 'src/posts');
 
-export async function getPostData(id: string) {
+interface PostData {
+  id: string;
+  content: string;
+  title?: string;
+  date?: string;
+  [key: string]: any;
+}
+
+export async function getPostData(id: string): Promise<PostData> {
     const fullPath = path.join(postsDirectory, `${id}.md`);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
   
@@ -19,4 +27,4 @@ export async function getPostData(id: string) {
       content: matterResult.content,
       ...matterResult.data
     };
-  }
+}
