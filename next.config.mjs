@@ -4,7 +4,6 @@ const nextConfig = {
     remotePatterns: [],
   },
   reactStrictMode: true,
-  swcMinify: true,
   logging: {
     fetches: {
       fullUrl: true,
